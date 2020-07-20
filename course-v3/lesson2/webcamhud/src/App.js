@@ -5,7 +5,7 @@ import { dataURLToBlob } from 'blob-util';
 import HighchartsReact from 'highcharts-react-official';
 import Highcharts from 'highcharts';
 
-const INFERENCE_ENDPOINT = "https://94607.leebutterman.com/identify";
+const INFERENCE_ENDPOINT = "https://art-text-plant.onrender.com/identify";
 
 const videoConstraints = {
   width: 256, //1280,
