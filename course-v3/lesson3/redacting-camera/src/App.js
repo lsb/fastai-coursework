@@ -6,8 +6,8 @@ import { dataURLToBlob } from 'blob-util';
 const INFERENCE_ENDPOINT = "https://redacting-camera.onrender.com/redact"
 
 const videoConstraints = {
-  width: 240*4,
-  height: 240*4,
+  width: 300,
+  height: 300,
 };
 
 const codes = ['Animal', 'Archway', 'Bicyclist', 'Bridge', 'Building', 'Car', 'CartLuggagePram', 'Child', 'Column_Pole', 'Fence', 'LaneMkgsDriv', 'LaneMkgsNonDriv', 'Misc_Text', 'MotorcycleScooter', 'OtherMoving', 'ParkingBlock', 'Pedestrian', 'Road', 'RoadShoulder', 'Sidewalk', 'SignSymbol', 'Sky', 'SUVPickupTruck', 'TrafficCone', 'TrafficLight', 'Train', 'Tree', 'Truck_Bus', 'Tunnel', 'VegetationMisc', 'Void', 'Wall'];
